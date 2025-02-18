@@ -38,7 +38,7 @@ dump/
 
 # Docker
 .dockerignore
-Dockerfile
+#Dockerfile
 docker-compose.override.yml
 
 # IDEs e Ferramentas
