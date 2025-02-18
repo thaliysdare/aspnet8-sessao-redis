@@ -1,0 +1,52 @@
+# Binário e arquivos de build
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.config
+*.csproj.user
+*.suo
+*.user
+*.db
+*.sqlite
+*.sln.cache
+*.vs/
+*.vscode/
+
+# Pacotes do NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Configurações do usuário
+.env
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs e arquivos de debug
+logs/
+*.log
+debug/
+dump/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# IDEs e Ferramentas
+.idea/
+*.suo
+*.vsconfig
+*.ipch
+*.sln.docstates
+*.ncrunch*
+.vscode/
+Thumbs.db

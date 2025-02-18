@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Área Privada";
+}
+
+<h2>Área Privada!</h2>
+
+<p>Você está logado como @Context.Session.GetString("User")</p>
+
+<a asp-area="" asp-controller="Account" asp-action="Logout">Para sair</a>
